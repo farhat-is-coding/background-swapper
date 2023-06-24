@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow: hidden;
+}
+
+.btn{
+    position: absolute;
+    left: 0%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: .5rem 2rem;
+    background-color: #4158D0;
+    color: white;
+    font-weight: 800;
+}
+.container{
+    /* display: flex;
+    justify-content: end; */
+    min-height: 100vh;
+}
+
+.img-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 10rem ;
+    /* margin: auto; */
+}
+
+.img-container img{
+    
+    max-width: 1000px;
+    height: auto;
+    animation: shake .4s ease infinite alternate;
+}
+
+@keyframes shake {
+    from {
+        transform: rotateZ(-5deg);
+      }
+      to {
+        transform: rotateZ(5deg);
+      }
+}
+#color1{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
